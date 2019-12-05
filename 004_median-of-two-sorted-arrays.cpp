@@ -7,16 +7,18 @@ The overall run time complexity should be O(log (m+n)).
 
 class Solution {
 public:
-    double findMedianSortedArrays(int A[], int m, int B[], int n) 
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2)
     {
+        int m = nums1.empty() ? 0 : nums1.size();
+        int n = nums2.empty() ? 0 : nums2.size();
         if (abs(m - n) & 0x1)
-            return medianRecursion(A, m, B, n, m + (n - m + 1) / 2);
+            return medianRecursion(nums1.begin(), m, nums2.begin(), n, m + (n - m + 1) / 2);
         else
-            return m_ave(medianRecursion(A, m, B, n, m + (n - m) / 2), medianRecursion(A, m, B, n, m + (n - m) / 2 + 1));
+            return m_ave(medianRecursion(nums1.begin(), m, nums2.begin(), n, m + (n - m) / 2), medianRecursion(nums1.begin(), m, nums2.begin(), n, m + (n - m) / 2 + 1));
     }
 	
 private:
-    double medianRecursion(int A[], int m, int B[], int n, int k) //Convert to the kth smallest number
+    double medianRecursion(vector<int>::iterator A, int m, vector<int>::iterator B, int n, int k) //Convert to the kth smallest number
     {
         if (m > n)
             return medianRecursion(B, n, A, m, k);
@@ -25,10 +27,10 @@ private:
         if (k == 1)
             return min(A[0], B[0]);
         int mA = min(k / 2, m), mB = k - mA;
-        if (A[mA-1] < B[mB-1])
+        if (A[mA - 1] < B[mB - 1])
             return medianRecursion(A + mA, m - mA, B, n, k - mA);
-        else if (A[mA-1] == B[mB-1])
-            return A[mA-1];
+        else if (A[mA - 1] == B[mB - 1])
+            return A[mA - 1];
         else
             return medianRecursion(A, m, B + mB, n - mB, k - mB);
     }

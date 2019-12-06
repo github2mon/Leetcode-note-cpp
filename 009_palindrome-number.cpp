@@ -21,15 +21,17 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 class Solution {
 public:
     bool isPalindrome(int x) {
+        if(!x)
+            return true;
         int temp = x;
         int res = 0;
         while(x > 0)
         {
-            res = res * 10 + x % 10;
-            if(res > INT_MAX/10 && x >= 10) //Prevents overflow of int types
+            if(res > INT_MAX/10)
                 return false;
+            res = res * 10 + x % 10;
             x /= 10;
         }
-        return (x >= 0 && res == temp);
+        return (res == temp);
     }
 };

@@ -4,6 +4,10 @@ Leetcode-note-C++
 Content
 ---
 
+[Easy](#easy)  
+[Medium](#medium)  
+[Hard](#hard)  
+
 ### * Easy
 >[001_two-sum](https://github.com/github2mon/Leetcode-note-cpp/blob/master/001_two-sum.cpp)  
 >[007_reverse-integer](https://github.com/github2mon/Leetcode-note-cpp/blob/master/007_reverse-integer.cpp)  

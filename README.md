@@ -13,6 +13,7 @@ Content
 >[007_reverse-integer](https://github.com/github2mon/Leetcode-note-cpp/blob/master/007_reverse-integer.cpp)  
 >[009_palindrome-number](https://github.com/github2mon/Leetcode-note-cpp/blob/master/009_palindrome-number.cpp)  
 >[013_roman-to-integer](https://github.com/github2mon/Leetcode-note-cpp/blob/master/013_roman-to-integer.cpp)  
+>[014_longest-common-prefix](https://github.com/github2mon/Leetcode-note-cpp/blob/master/014_longest-common-prefix.cpp)  
 
 ### * Medium  
 >[002_add-two-numbers](https://github.com/github2mon/Leetcode-note-cpp/blob/master/002_add-two-numbers.cpp)  

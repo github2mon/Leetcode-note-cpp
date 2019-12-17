@@ -26,6 +26,7 @@ Content
 >[015_3sum](https://github.com/github2mon/Leetcode-note-cpp/blob/master/015_3sum.cpp)  `attention to heap-buffer overflow and []`  
 >[016_3sum-closest](https://github.com/github2mon/Leetcode-note-cpp/blob/master/016_3sum-closest.cpp)  
 >[017_letter-combinations-of-a-phone-number](https://github.com/github2mon/Leetcode-note-cpp/blob/master/017_letter-combinations-of-a-phone-number.cpp)  
+>[018_4sum](https://github.com/github2mon/Leetcode-note-cpp/blob/master/018_4sum.cpp)  
 
 ### * Hard  
 >[004_median-of-two-sorted-arrays](https://github.com/github2mon/Leetcode-note-cpp/blob/master/004_median-of-two-sorted-arrays.cpp)  

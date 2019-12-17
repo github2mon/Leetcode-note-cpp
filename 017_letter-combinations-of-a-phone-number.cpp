@@ -1,5 +1,6 @@
 /*
-给出含有n个整数的数组s，找出s中和加起来的和最接近给定的目标值的三个整数。返回这三个整数的和。你可以假设每个输入都只有唯一解。
+给出一个仅包含数字的字符串，给出所有可能的字母组合。
+数字到字母的映射方式如下:(就像电话上数字和字母的映射一样)
 
 Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent.
 A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.

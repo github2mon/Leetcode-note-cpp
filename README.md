@@ -14,6 +14,8 @@ Content
 >[009_palindrome-number](https://github.com/github2mon/Leetcode-note-cpp/blob/master/009_palindrome-number.cpp)  
 >[013_roman-to-integer](https://github.com/github2mon/Leetcode-note-cpp/blob/master/013_roman-to-integer.cpp)  
 >[014_longest-common-prefix](https://github.com/github2mon/Leetcode-note-cpp/blob/master/014_longest-common-prefix.cpp)  
+>[020_valid-parentheses](https://github.com/github2mon/Leetcode-note-cpp/blob/master/020_valid-parentheses.cpp)  
+>[021_merge-two-sorted-lists](https://github.com/github2mon/Leetcode-note-cpp/blob/master/021_merge-two-sorted-lists.cpp)  
 
 ### * Medium  
 >[002_add-two-numbers](https://github.com/github2mon/Leetcode-note-cpp/blob/master/002_add-two-numbers.cpp)  

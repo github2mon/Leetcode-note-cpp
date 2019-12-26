@@ -30,6 +30,7 @@ Content
 >[017_letter-combinations-of-a-phone-number](https://github.com/github2mon/Leetcode-note-cpp/blob/master/017_letter-combinations-of-a-phone-number.cpp)  
 >[018_4sum](https://github.com/github2mon/Leetcode-note-cpp/blob/master/018_4sum.cpp)  
 >[019_remove-nth-node-from-end-of-list](https://github.com/github2mon/Leetcode-note-cpp/blob/master/019_remove-nth-node-from-end-of-list.cpp)  
+>[022_generate-parentheses](https://github.com/github2mon/Leetcode-note-cpp/blob/master/022_generate-parentheses.cpp)  
 
 ### * Hard  
 >[004_median-of-two-sorted-arrays](https://github.com/github2mon/Leetcode-note-cpp/blob/master/004_median-of-two-sorted-arrays.cpp)  

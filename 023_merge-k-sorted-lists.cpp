@@ -60,3 +60,41 @@ private:
         }
     }
 };
+
+/*************************************Priority Queue**********************************/
+/* lists.size() = K
+ * seqList.size() = N
+ * Priority Queue: KlogK
+ * push(): logK + 1
+ * complexity: KlogK + K(N-1) * (logK + 1) = O(KNlogK)
+ */
+struct cmp
+{
+    bool operator() (ListNode* l1, ListNode* l2) { return l1->val > l2->val;}
+};
+
+class Solution
+{
+public:
+    ListNode* mergeKLists(vector<ListNode*>& lists)
+    {
+        priority_queue<ListNode*, vector<ListNode*>, cmp> pq;
+        for(ListNode* l : lists)
+            if(l) pq.push(l);
+        if(pq.empty())
+            return nullptr;
+
+        ListNode *res = pq.top();
+        pq.pop();
+        if(res->next) pq.push(res->next);
+        ListNode* tail = res;
+        while(!pq.empty())
+        {
+            tail->next = pq.top();
+            pq.pop();
+            tail = tail->next;
+            if(tail->next) pq.push(tail->next);
+        }
+        return res;
+    }
+};

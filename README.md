@@ -37,3 +37,4 @@ Content
 >[004_median-of-two-sorted-arrays](https://github.com/github2mon/Leetcode-note-cpp/blob/master/004_median-of-two-sorted-arrays.cpp)  
 >[010_regular-expression-matching](https://github.com/github2mon/Leetcode-note-cpp/blob/master/010_regular-expression-matching.cpp)  `very hard`  
 >[023_merge-k-sorted-lists](https://github.com/github2mon/Leetcode-note-cpp/blob/master/023_merge-k-sorted-lists.cpp)`Priority Queue`  
+>[025_reverse-nodes-in-k-group](https://github.com/github2mon/Leetcode-note-cpp/blob/master/025_reverse-nodes-in-k-group.cpp)  

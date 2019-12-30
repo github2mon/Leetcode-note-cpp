@@ -16,6 +16,7 @@ Content
 >[014_longest-common-prefix](https://github.com/github2mon/Leetcode-note-cpp/blob/master/014_longest-common-prefix.cpp)  
 >[020_valid-parentheses](https://github.com/github2mon/Leetcode-note-cpp/blob/master/020_valid-parentheses.cpp)  
 >[021_merge-two-sorted-lists](https://github.com/github2mon/Leetcode-note-cpp/blob/master/021_merge-two-sorted-lists.cpp)  
+>[026_remove-duplicates-from-sorted-array](https://github.com/github2mon/Leetcode-note-cpp/blob/master/026_remove-duplicates-from-sorted-array.cpp)`std::unique()`  
 
 ### * Medium  
 >[002_add-two-numbers](https://github.com/github2mon/Leetcode-note-cpp/blob/master/002_add-two-numbers.cpp)  

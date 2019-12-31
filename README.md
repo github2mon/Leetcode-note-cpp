@@ -18,6 +18,7 @@ Content
 >[021_merge-two-sorted-lists](https://github.com/github2mon/Leetcode-note-cpp/blob/master/021_merge-two-sorted-lists.cpp)  
 >[026_remove-duplicates-from-sorted-array](https://github.com/github2mon/Leetcode-note-cpp/blob/master/026_remove-duplicates-from-sorted-array.cpp)`std::unique()`  
 >[027_remove-element](https://github.com/github2mon/Leetcode-note-cpp/blob/master/027_remove-element.cpp)  
+>[028_implement-strstr](https://github.com/github2mon/Leetcode-note-cpp/blob/master/028_implement-strstr.cpp)`KMP`  
 
 ### * Medium  
 >[002_add-two-numbers](https://github.com/github2mon/Leetcode-note-cpp/blob/master/002_add-two-numbers.cpp)  

@@ -35,3 +35,41 @@ public:
 };
 
 /***********************************KMP******************************************/
+/* more details about KMP
+ * https://github.com/github2mon/Data-Structure-and-Algorithm/blob/master/Algorithm/KMP/README.md
+ */
+class Solution {
+public:
+	int strStr(string haystack, string needle) {
+		if(needle.empty()) return 0;
+        vector<int> next = calNext(needle);
+		int k = -1;
+		for (int i = 0; i < haystack.length(); i++)
+		{
+			while (k >= 0 && needle[k + 1] != haystack[i])
+				k = next[k];
+			if (needle[k + 1] == haystack[i])
+				k++;
+			if (k == needle.length() - 1)
+				return i - k;
+		}
+		return -1;
+	}
+
+private:
+	vector<int> calNext(const string s)
+	{
+		vector<int> next;
+		next.push_back(-1);
+		int k = -1;
+		for (int i = 1; i < s.length(); i++)
+		{
+			while (k >= 0 && s[k + 1] != s[i])
+				k = next[k]; //the next item of recursion is the longest suffix of the current longest prefix
+			if (s[k + 1] == s[i])
+				k++;
+			next.push_back(k);
+		}
+		return next;
+	}
+};

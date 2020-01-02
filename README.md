@@ -35,6 +35,7 @@ Content
 >[019_remove-nth-node-from-end-of-list](https://github.com/github2mon/Leetcode-note-cpp/blob/master/019_remove-nth-node-from-end-of-list.cpp)  
 >[022_generate-parentheses](https://github.com/github2mon/Leetcode-note-cpp/blob/master/022_generate-parentheses.cpp)  
 >[024_swap-nodes-in-pairs](https://github.com/github2mon/Leetcode-note-cpp/blob/master/024_swap-nodes-in-pairs.cpp)  
+>[029_divide-two-integers](https://github.com/github2mon/Leetcode-note-cpp/blob/master/029_divide-two-integers.cpp)
 
 ### * Hard  
 >[004_median-of-two-sorted-arrays](https://github.com/github2mon/Leetcode-note-cpp/blob/master/004_median-of-two-sorted-arrays.cpp)  

@@ -37,7 +37,25 @@ public:
 };
 
 /***************************************stack***************************************/
-
+class Solution {
+public:
+    int longestValidParentheses(string s) {
+        stack<int> st;
+        st.push(-1);
+        int res = 0;
+        for(int i=0; i<s.length(); i++)
+        {
+            if(st.top() != -1 && s[i] == ')' && s[st.top()] == '(')
+            {
+                st.pop();
+                res = max(res, i-st.top());
+            }
+            else
+                st.push(i);
+        }
+        return res;
+    }
+};
 
 /***************************************DP*****************************************/
 

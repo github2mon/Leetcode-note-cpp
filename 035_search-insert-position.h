@@ -29,7 +29,7 @@ Input: [1,3,5,6], 0
 Output: 0
 */
 
-class Solution
+class Solution_035
 {
 public:
 	int searchInsert(vector<int>& nums, int target)

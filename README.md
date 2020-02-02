@@ -19,6 +19,7 @@ Content
 >[026_remove-duplicates-from-sorted-array](https://github.com/github2mon/Leetcode-note-cpp/blob/master/026_remove-duplicates-from-sorted-array.cpp)`std::unique()`  
 >[027_remove-element](https://github.com/github2mon/Leetcode-note-cpp/blob/master/027_remove-element.cpp)  
 >[028_implement-strstr](https://github.com/github2mon/Leetcode-note-cpp/blob/master/028_implement-strstr.cpp)`KMP`  
+>[035_search-insert-position](https://github.com/github2mon/Leetcode-note-cpp/blob/master/035_search-insert-position.h)  
 
 ### * Medium  
 >[002_add-two-numbers](https://github.com/github2mon/Leetcode-note-cpp/blob/master/002_add-two-numbers.cpp)  
@@ -35,7 +36,8 @@ Content
 >[019_remove-nth-node-from-end-of-list](https://github.com/github2mon/Leetcode-note-cpp/blob/master/019_remove-nth-node-from-end-of-list.cpp)  
 >[022_generate-parentheses](https://github.com/github2mon/Leetcode-note-cpp/blob/master/022_generate-parentheses.cpp)  
 >[024_swap-nodes-in-pairs](https://github.com/github2mon/Leetcode-note-cpp/blob/master/024_swap-nodes-in-pairs.cpp)  
->[029_divide-two-integers](https://github.com/github2mon/Leetcode-note-cpp/blob/master/029_divide-two-integers.cpp)
+>[029_divide-two-integers](https://github.com/github2mon/Leetcode-note-cpp/blob/master/029_divide-two-integers.cpp)  
+>[036_valid-sudoku](https://github.com/github2mon/Leetcode-note-cpp/blob/master/036_valid-sudoku.h)  
 
 ### * Hard  
 >[004_median-of-two-sorted-arrays](https://github.com/github2mon/Leetcode-note-cpp/blob/master/004_median-of-two-sorted-arrays.cpp)  

@@ -45,3 +45,4 @@ Content
 >[023_merge-k-sorted-lists](https://github.com/github2mon/Leetcode-note-cpp/blob/master/023_merge-k-sorted-lists.cpp)`Priority Queue`  
 >[025_reverse-nodes-in-k-group](https://github.com/github2mon/Leetcode-note-cpp/blob/master/025_reverse-nodes-in-k-group.cpp)  
 >[032_longest-valid-parentheses](https://github.com/github2mon/Leetcode-note-cpp/blob/master/032_longest-valid-parentheses.cpp)`Stack` `DP`  
+>[037_sudoku-solver](https://github.com/github2mon/Leetcode-note-cpp/blob/master/037_sudoku-solver.h) `lambda gets external variables`  
